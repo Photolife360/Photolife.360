@@ -1,0 +1,31 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #fff;
+}
+header, section, footer {
+  padding: 20px;
+  text-align: center;
+}
+header {
+  background: linear-gradient(to right, #7b2ff7, #f107a3);
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  color: #f0f;
+  text-decoration: none;
+}
+video {
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #f0f;
+}
+.evento {
+  margin-bottom: 30px;
+}

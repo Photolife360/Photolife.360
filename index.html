@@ -2,74 +2,49 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Momentos Felices 360</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photolife 360° | Alquiler de Plataforma 360° en GBA Sur</title>
+  <meta name="description" content="Alquiler de base 360° para fiestas, eventos, bodas y más en la Zona Sur del GBA. Contactanos y viví la experiencia.">
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body>
+  <header>
+    <h1>Photolife 360°</h1>
+    <p>Alquiler de plataforma 360° para fiestas, XV, bodas y eventos empresariales</p>
+  </header>
 
-  <!-- Hero Section -->
-  <section class="relative bg-black text-white h-screen flex flex-col justify-center items-center text-center">
-    <div class="bg-black bg-opacity-70 absolute inset-0"></div>
-    <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover">
-      <source src="tu-video-promocional.mp4" type="video/mp4">
-    </video>
-    <div class="z-10 px-6">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4">¡Capturá tus mejores momentos con nuestra base 360!</h1>
-      <a href="#contacto" class="bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded-full text-lg">Reservá ahora</a>
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>📸 Plataforma 360° con cámara giratoria</li>
+      <li>🎧 DJ y sonido profesional</li>
+      <li>✨ Iluminación y ambientación de eventos</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>🎬 Galería de Eventos</h2>
+    <div class="evento">
+      <h3>🎉 Fiesta XV de Camila – Lanús</h3>
+      <video controls width="300" src="videos/fiesta-camila1.mp4"></video>
+      <video controls width="300" src="videos/fiesta-camila2.mp4"></video>
+    </div>
+    <div class="evento">
+      <h3>💍 Casamiento Agus & Mati – Quilmes</h3>
+      <video controls width="300" src="videos/casamiento-agusmati1.mp4"></video>
     </div>
   </section>
 
-  <!-- Servicios -->
-  <section id="servicios" class="py-16 px-6">
-    <h2 class="text-3xl font-bold text-center mb-10">Nuestros Servicios</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-      <div>
-        <img src="base360.jpg" alt="Base 360" class="mx-auto mb-4 rounded-xl">
-        <h3 class="text-xl font-semibold">Base 360</h3>
-        <p>Grabación en cámara lenta y full HD para eventos inolvidables.</p>
-      </div>
-      <div>
-        <img src="dj.jpg" alt="DJ y sonido" class="mx-auto mb-4 rounded-xl">
-        <h3 class="text-xl font-semibold">DJ y Sonido</h3>
-        <p>Ambientación musical profesional con el mejor equipo.</p>
-      </div>
-      <div>
-        <img src="luces.jpg" alt="Luces LED" class="mx-auto mb-4 rounded-xl">
-        <h3 class="text-xl font-semibold">Luces y ambientación</h3>
-        <p>Iluminación que transforma tu evento en una fiesta inolvidable.</p>
-      </div>
-    </div>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📍 Zona Sur GBA</p>
+    <p>📲 <a href="https://wa.me/541138219125" target="_blank">¡Cotizá por WhatsApp!</a></p>
+    <p>📷 <a href="https://instagram.com/photolife.360" target="_blank">@photolife.360</a></p>
   </section>
 
-  <!-- Galería -->
-  <section id="galeria" class="bg-white py-16 px-6">
-    <h2 class="text-3xl font-bold text-center mb-10">Galería</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <img src="evento1.jpg" class="rounded-lg">
-      <img src="evento2.jpg" class="rounded-lg">
-      <img src="evento3.jpg" class="rounded-lg">
-      <img src="evento4.jpg" class="rounded-lg">
-    </div>
-  </section>
-
-  <!-- Contacto -->
-  <section id="contacto" class="py-16 px-6 bg-pink-50">
-    <h2 class="text-3xl font-bold text-center mb-10">Reservá tu fecha</h2>
-    <form class="max-w-xl mx-auto space-y-6">
-      <input type="text" placeholder="Nombre completo" class="w-full p-3 border rounded">
-      <input type="email" placeholder="Correo electrónico" class="w-full p-3 border rounded">
-      <input type="text" placeholder="Fecha del evento" class="w-full p-3 border rounded">
-      <textarea placeholder="Contanos sobre tu evento" class="w-full p-3 border rounded"></textarea>
-      <button type="submit" class="bg-pink-500 hover:bg-pink-600 text-white py-3 px-6 rounded-full">Enviar consulta</button>
-    </form>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-gray-800 text-white text-center py-6">
-    <p>© 2025 Momentos Felices 360 | Seguinos en Instagram @momentosfelices77</p>
+  <footer>
+    <p>© 2025 Photolife 360°. Todos los derechos reservados.</p>
   </footer>
-
 </body>
 </html>
